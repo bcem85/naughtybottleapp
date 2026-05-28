@@ -23,9 +23,9 @@ However, the Application uses third-party services that may collect certain tech
 
 The Application may use the following third-party services:
 
-Google AdMob
-Used to display advertisements and measure ad performance.
-https://policies.google.com/privacy
+Unity Ads
+Used to display advertisements, deliver ad content, and measure ad performance.
+https://unity.com/legal/privacy-policy
 
 Firebase (Google)
 Used for analytics, crash reporting, backend services, and remote configuration.
@@ -34,6 +34,10 @@ https://firebase.google.com/support/privacy
 RevenueCat
 Used for managing subscriptions and in-app purchases.
 https://www.revenuecat.com/privacy
+
+Google Play Billing
+Used for securely processing purchases and subscriptions through Google Play.
+https://policies.google.com/privacy
 
 3. Purchases and Subscriptions
 
@@ -64,7 +68,7 @@ To exercise these rights, contact us using the email below.
 
 Naughty Bottle is intended strictly for adults aged 18 and older.
 
-The Application may contain mature or suggestive themes and is not directed toward children.
+The Application may contain mature, suggestive, or adult-oriented themes and is not directed toward children.
 
 We do not knowingly collect information from individuals under the age of 18.
 
