@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naughty Bottle - İndir</title>
+    <style>
+        body {
+            background-color: #0d0d13;
+            color: #ffffff;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            overflow: hidden;
+        }
+        .loader {
+            border: 4px solid #1a1a24;
+            border-top: 4px solid #e91e63;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+            margin-bottom: 20px;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        p {
+            font-size: 1.1rem;
+            letter-spacing: 0.5px;
+            opacity: 0.8;
+        }
+    </style>
+    <script>
+        window.onload = function() {
+            var userAgent = navigator.userAgent || navigator.vendor || window.opera;
+            
+            // Linkleri buraya ekleyebilirsin
+            var playStoreUrl = "https://play.google.com/store/apps/details?id=com.naughtybottle.dirtygames";
+            var appStoreUrl = "https://apps.apple.com/app/idYOUR_IOS_APP_ID";
+            var fallbackUrl = "https://bcem85.github.io/naughtybottleapp/";
+
+            if (/android/i.test(userAgent)) {
+                window.location.href = playStoreUrl;
+            } else if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+                window.location.href = appStoreUrl;
+            } else {
+                window.location.href = fallbackUrl;
+            }
+        };
+    </script>
+</head>
+<body>
+    <div class="loader"></div>
+    <p>Mağazaya yönlendiriliyorsunuz...</p>
+</body>
+</html>
